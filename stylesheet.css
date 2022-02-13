@@ -47,12 +47,22 @@ ul {
     padding: 0;
 }
 
+.b1 {
+    padding: 5%;
+    gap: 16px;
+}
+
 .b1left {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    max-width: 50;
+    max-width: 30%;
+}
+
+.b1left, .b1 img {
+    margin: 0;
+    padding: 0;
 }
 
 .b1title {
@@ -64,6 +74,11 @@ ul {
 .b1left p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.b1 img {
+    max-width: 30%;
+    max-height: 50%;
 }
 
 .b2 {
