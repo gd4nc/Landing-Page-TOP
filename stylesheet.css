@@ -47,6 +47,14 @@ ul {
     padding: 0;
 }
 
+a:link, 
+a:visited,
+a:link:active,
+a:visited:active {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .b1 {
     padding: 5%;
     gap: 16px;
@@ -76,6 +84,16 @@ ul {
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 12px;
+}
+
 .b1 img {
     max-width: 30%;
     max-height: 50%;
@@ -88,9 +106,38 @@ ul {
     justify-content: center;
 }
 
+.b2title {
+    font-size: 34px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .b2info {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+.b3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qcontent {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+    width: 50%;
+}
