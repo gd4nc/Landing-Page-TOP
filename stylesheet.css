@@ -124,6 +124,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 }
 
 .quote {
@@ -131,6 +132,8 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-height: 60%;
+    max-width: 50%;
 }
 
 .qcontent {
@@ -138,6 +141,13 @@ button {
     font-weight: 200;
     font-style: italic;
     color: #1F2937;
-    flex-wrap: wrap;
-    width: 50%;
+    margin: 0;
 }
+ .qspeaker {
+     font-size: 24px;
+     font-weight: bold;
+     color: #1F2937;
+     align-self: flex-end;
+     margin: 0;
+}
+
