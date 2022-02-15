@@ -104,6 +104,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2% 0 5%;
 }
 
 .b2title {
@@ -114,8 +115,28 @@ button {
 
 .b2info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5%;
+    margin-bottom: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 12%;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+    border: 3px #3882F6 solid;
 }
 
 .b3 {
@@ -138,7 +159,6 @@ button {
 
 .qcontent {
     font-size: 36px;
-    font-weight: 200;
     font-style: italic;
     color: #1F2937;
     margin: 0;
